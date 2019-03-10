@@ -1,7 +1,7 @@
 <template>
   <div>
+    <h1>Template Two</h1>
     <p>Name:{{name}}</p>
-    <p>Objective:{{objective}}</p>
     <p>
       <span v-for="(item, index) in skills" :key="index" class="badge badge-primary">{{item}}</span>
     </p>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  props: ["name", "skills", "education", "objective", "experince"]
+  props: ["name", "skills"]
 };
 </script>
 
