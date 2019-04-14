@@ -1,16 +1,16 @@
 <template>
   <v-app>
-    <v-btn class="hidden-xs-and-down">Click Me</v-btn>
+    <NavBar></NavBar>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import NavBar from "./components/NavBar.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    NavBar
   },
   data() {
     return {
